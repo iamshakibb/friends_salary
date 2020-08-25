@@ -1,0 +1,34 @@
+.friens-box {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.info-box {
+  padding: 40px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #0e4749;
+}
+
+.friend_img {
+  margin-bottom: 20px;
+}
+
+.friend_img img {
+  border-radius: 50%;
+}
+
+.friend_info {
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  right: 0;
+  top: 80%;
+}
+
+.icon {
+  margin-left: 15px;
+}

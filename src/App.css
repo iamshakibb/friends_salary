@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #002626;
+  color: #fff;
+}
+
+.mobile {
+  display: none;
+}
+
+.nav-section {
+  background-color: black;
+}
+
+.friend {
+  margin-top: 30px;
+}
+.desktop {
+  position: fixed;
+  right: 0;
+  margin-top: 10%;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: inline-block;
+    margin-top: 15%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: inline-block;
+    margin-top: 15%;
+  }
+}

@@ -1,0 +1,16 @@
+h4 {
+  margin-bottom: 15px;
+}
+
+.show-salary {
+  /* height: 200px;
+  max-height: auto;
+  width: 400px; */
+  min-height: 50px;
+  width: 260px;
+}
+
+.show-salary p:nth-child(2) {
+  position: absolute;
+  right: 20px;
+}

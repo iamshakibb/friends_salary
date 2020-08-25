@@ -1,0 +1,36 @@
+nav {
+  height: 50px;
+  background-color: black;
+  text-align: center;
+}
+nav ul {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 10px;
+}
+nav ul li {
+  list-style: none;
+  padding-right: 90px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  nav ul li {
+    list-style: none;
+    padding-right: 30px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  nav ul li {
+    list-style: none;
+    padding-right: 30px;
+  }
+}
